@@ -12,7 +12,7 @@ First, add database support for Login with NextAuth followed by .env.local.examp
 cp .env.local.example .env.local
 ```
 
-- See [next-auth.js.org](https://next-auth.js.org) for more information and documentation.
+- See [next-auth example](https://github.com/nextauthjs/next-auth-example) for more information and documentation.
 
 Second, run the development server:
 
