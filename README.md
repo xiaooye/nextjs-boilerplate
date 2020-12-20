@@ -8,6 +8,10 @@ Personal Starter App made with Next.js, NextAuth, Typescript, and Tailwind CSS w
 
 First, add database support for Login with NextAuth followed by .env.local.example
 
+```
+cp .env.local.example .env.local
+```
+
 - See [next-auth.js.org](https://next-auth.js.org) for more information and documentation.
 
 Second, run the development server:
