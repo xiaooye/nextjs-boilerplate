@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Overview
 
-Personal Starter App made with Next.js, NextAuth, Typescript, and Tailwind CSS with emotion
+Personal Server-Side Rendering Starter App made with Next.js, NextAuth, Typescript, and Tailwind CSS with emotion
 
 ## Getting Started
 
