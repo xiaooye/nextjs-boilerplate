@@ -2,11 +2,10 @@
 import jwt from 'next-auth/jwt'
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-const secret = process.env.SECRET as string | Buffer
+const secret = process.env.JWT_SECRET as string | Buffer
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
-
-  const token = await jwt.getToken({req, secret})
+  const token = await jwt.getToken({req, secret,encryption: true})
   console.log('JSON Web Token', token)
   res.send(JSON.stringify(token, null, 2))
 }
