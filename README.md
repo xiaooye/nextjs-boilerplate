@@ -16,20 +16,28 @@ I'm tired of wasting time on same configuration again and again so I just make a
 
 1.  Clone the repository and change directory.
   
-```
+```bash
 git clone https://github.com/xiaooye/nextjs-example.git
 cd nextjs-example
 ```
 
 2. add database support for Login with NextAuth followed by .env.local.example
 
-```
+```bash
 cp .env.local.example .env.local
 ```
 
 - See [next-auth example](https://github.com/nextauthjs/next-auth-example) for more information and documentation.
 
-3. run the development server:
+3.  install the project
+
+```bash
+npm install
+# or
+yarn 
+```
+
+4. run the development server:
 
 ```bash
 npm run dev
