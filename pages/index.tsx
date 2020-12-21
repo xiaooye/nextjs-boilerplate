@@ -1,26 +1,25 @@
-import Layout from "../components/layout";
-import { useSession, getSession, getCsrfToken } from 'next-auth/client'
+import { useSession, getSession } from "next-auth/client";
 import Head from "next/head";
 import Link from "next/link";
+import Layout from "../components/layout";
 
 export default function Home() {
-  const [ session, loading ] = useSession()
+  const [session, loading] = useSession();
   return (
     <Layout>
       <Head>
         <title>Starter</title>
       </Head>
-      {session && <h2>
-        <Link href="/ps">
-          <a>Protected</a>
-        </Link>
-      </h2>
-      }
-      <h2>
-      <Link href="/api_check">
-        <a>Check Session/JWT</a>
-      </Link>
-      </h2>
+      {session && (
+        <h2>
+          <Link href="/ps">Protected</Link>
+        </h2>
+      )}
+      {!loading && (
+        <h2>
+          <Link href="/api_check">Check Session/JWT</Link>
+        </h2>
+      )}
     </Layout>
   );
 }
@@ -29,7 +28,7 @@ export default function Home() {
 export async function getServerSideProps(context: any) {
   return {
     props: {
-      session: await getSession(context)
-    }
-  }
+      session: await getSession(context),
+    },
+  };
 }

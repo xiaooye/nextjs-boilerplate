@@ -27,9 +27,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
 ## Things To Do
+
 - [ ] Adding Jest
 - [ ] Adding CSS
   - [ ] Responsive CSS
 - [ ] Adding State Management (Recoil?/Redux?/React Context?)
-- [ ] Eslint?  
-- [ ] Database Support 
+- [ ] Eslint?
+- [ ] Database Support

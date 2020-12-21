@@ -5,18 +5,10 @@ export default function Header() {
 
   return (
     <nav className="flex flex-row">
-      <div className="flex-auto">
-
-      </div>
-      <div className="flex-auto">
-
-      </div>
-      <div className="flex-auto">
-
-      </div>
-      <div className="flex-auto">
-
-      </div>
+      <div className="flex-auto"></div>
+      <div className="flex-auto"></div>
+      <div className="flex-auto"></div>
+      <div className="flex-auto"></div>
       {!session && (
         <div className="flex-auto">
           <a

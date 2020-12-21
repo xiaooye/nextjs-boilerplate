@@ -1,5 +1,5 @@
 import Header from "../components/header";
-import Link from "next/link"
+import Link from "next/link";
 type LayoutProp = {
   children: any;
 };
