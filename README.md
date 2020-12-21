@@ -2,11 +2,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Overview
 
-Personal Server-Side Rendering Starter App made with Next.js, NextAuth, Typescript, and Tailwind CSS with emotion
-
+- Personal Server-Side Rendering Starter App made with Next.js, NextAuth, Typescript, and Tailwind CSS with Emotion 
+- Formatted with Stylelint, Eslint, and Prettier
+- 
 ## Getting Started
 
-First, add database support for Login with NextAuth followed by .env.local.example
+1.  Clone the repository and change directory.
+  
+```
+git clone https://github.com/xiaooye/nextjs-example.git
+cd nextjs-example
+```
+
+2. add database support for Login with NextAuth followed by .env.local.example
 
 ```
 cp .env.local.example .env.local
@@ -14,7 +22,7 @@ cp .env.local.example .env.local
 
 - See [next-auth example](https://github.com/nextauthjs/next-auth-example) for more information and documentation.
 
-Second, run the development server:
+3. run the development server:
 
 ```bash
 npm run dev
@@ -28,9 +36,9 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 ## Things To Do
 
-- [ ] Adding Jest
+- [ ] Adding Jest Tests
 - [ ] Adding CSS
   - [ ] Responsive CSS
 - [ ] Adding State Management (Recoil?/Redux?/React Context?)
-- [ ] Eslint?
+- [x] Eslint?
 - [ ] Database Support
