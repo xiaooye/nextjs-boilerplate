@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## All Suggestions And Problems are Welcomed!
+
+## About this starter
+
+I'm tired of wasting time on same configuration again and agin so I just make a template to use for my future projects.
+
 ## Overview
 
 - Personal Server-Side Rendering Starter App made with Next.js, NextAuth, Typescript, and Tailwind CSS with Emotion 
