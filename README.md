@@ -4,7 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 - Personal Server-Side Rendering Starter App made with Next.js, NextAuth, Typescript, and Tailwind CSS with Emotion 
 - Formatted with Stylelint, Eslint, and Prettier
-- 
+- Configured with Jest Testing Library 
+  
 ## Getting Started
 
 1.  Clone the repository and change directory.
@@ -36,7 +37,9 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 ## Things To Do
 
-- [ ] Adding Jest Tests
+- [x] Adding Jest
+  - [ ] Adding Jest Tests
+  - [ ] Adding React Test Library
 - [ ] Adding CSS
   - [ ] Responsive CSS
 - [ ] Adding State Management (Recoil?/Redux?/React Context?)
