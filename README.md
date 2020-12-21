@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## About this starter
 
-I'm tired of wasting time on same configuration again and agin so I just make a template to use for my future projects.
+I'm tired of wasting time on same configuration again and again so I just make a template to use for my future projects.
 
 ## Overview
 
